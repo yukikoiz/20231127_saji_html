@@ -49,12 +49,15 @@
     </table>
     <h2>お問い合わせ</h2>
     <form action="送信先" method="post">
-        <label>会社名<input type="text" name="text" /></label>
-        <br><label>お名前<input type="text" name="name" /></label>
-        <br><label>メールアドレス<input type="email" name="email" /></label>
-        <br>
-        <label>お問い合わせ内容<textarea name="textarea" cols="80" rows="10"></textarea></label>
-        <br><input type="submit" name="" value="お申し込み" />
+        <label for="text">会社名</label>
+        <input type="text" name="text" id="text"/>
+        <br><label for="name">お名前</label>
+        <input type="text" name="name" id="name"/>
+        <br><label for="email">メールアドレス</label>
+        <input type="email" name="email" id="email"/>
+        <br><label for="message">お問い合わせ内容</label>
+        <textarea name="textarea" cols="80" rows="10"></textarea>
+        <br><input type="submit" name="btn" value="お申し込み" id="btn"/>
     </form>
     <small>&copy; 2020 TECH inc.</small>
 </body>
